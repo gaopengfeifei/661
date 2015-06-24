@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+/*----颜色----*/
+.primary{ color:#24c3fa;}
+.gray{ color:#3b3b3b;}
+.dark{ color:#4d4d4d;}
+.a{ text-decoration:none}
+.a:hover{ text-decoration:underline}
+/*-----布局-----*/
+.top-bar{ height:28px;background-color:#3d4749}
+.header{ height:90px;}
+.banner{ height:170px;}
+.article{ height:570px; margin-bottom:120px; margin-top:-50px}
+.footer{ height:140px; background-color:#525e6a}
+/*-----中心宽度-------*/
+.container { width:1000px; margin:0 auto; height:100%}
+/*-----分内容区域-------*/
+.container .bread{ height:50px; background-color:#ffffff; border:1px solid #eaeaea}
+.aside{ width:248px;float:left; height:100%; border:1px solid #eaeaea}
+.content{ width:750px; height:100%; float:left}
+/*-----分content------*/
+.content .acc{ height:170px;}
+.content .abb{ height:150px; border:1px solid #eaeaea}
+
+/*---abb分-----*/
+.abb .section{ width:33%;float:left; height:100%}
+
+/*-----填充内容top-bar------*/
+.container .top{ margin-top:7px; color:#bec2c3; text-align:right; height:28px; line-height:28px; color:#fff}
+.container .top a{ padding-right:5px; padding-left:5px;}
+
+.container .top a{color:#fff; text-decoration:none; }
+.container .top a:hover{text-decoration:underline; color:#24c3fa}
+/*---------header-----------*/
+.container .hea h1{ float:left; margin-top:12px}
+.container .hea ul{ float:right; border-right:1px dashed #eaeaea;}
+.container .hea ul li{width:120px; float:left; height:90px;border-left:1px dashed #eaeaea; text-align:center;}
+.container .hea ul li a{ display:block; height:62px; font-size:18px;padding-top:25px; text-decoration:none; color:#3b3b3b;border-bottom:3px solid transparent}
+.container .hea ul li a:hover, .container .hea ul .active a{ color:#24c3fa;border-bottom:3px solid #24c3fa;text-decoration:underline}
+
+
+.container .hea ul li a em{ display:block; font-size:9px; font-style:normal;}
+/*----banner------*/
+
+.banner li{ background-image: url(../images/banner-acc.jpg); background-repeat:no-repeat; height:170px;text-align:center; padding-top:50px;}
+.banner li { font-size:25px; text-decoration:none; color:#203a5f}
+
+.banner li span{ display:block; font-size:10px }
+/*-------article----------*/
+.bread .bread-crumb{float:left; height:50px; line-height:50px;}
+.bread .bread-crumb li{ padding-left:15px;}
+.bread .bread-crumb li a{ color:#4d4d4d; font-size:12px; text-decoration:none}
+.bread .bread-crumb li a:hover{ color:#24c3fa; text-decoration:underline}
+.bread .crumb{float:right}
+.bread .crumb li{ width:120px; height:35px; float:left; border-left:1px solid #eaeaea; text-align:center;padding-top:15px}
+.bread .crumb li a{ color:#4d4d4d; font-size:12px; text-decoration:none }
+.bread .crumb li a:hover{ color:#24c3fa; text-decoration:underline}
+/*------aside---------*/
+.navi{margin-top:40px; margin-left:50px;}
+.navi .sup{margin-bottom:40px;}
+.navi .sup h2 a{ color:#6e6e6e; text-decoration:none; font-size:16px;}
+.navi .sup h2 a:hover{color:#24c3fa; text-decoration:underline }
+.navi .side ul{ font-size:12px; margin-top:20px}
+.navi .side li{ margin-left:5px; margin-top:10px}
+.navi .side li a{ color:#4d4d4d;text-decoration:none}
+.navi .side li a:hover{color:#24c3fa; text-decoration:underline }
+.safe ul{ margin-top:20px}
+.safe li{ margin-left:5px; margin-top:10px}
+.safe li a{ color:#4d4d4d; text-decoration:none}
+.safe li a:hover{ color:#24c3fa; text-decoration:underline }
+.density ul{ margin-top:20px}
+.density li {margin-left:5px; margin-top:10px}
+.density li a{color:#4d4d4d; text-decoration:none}
+.density li a:hover{color:#24c3fa; text-decoration:underline }
+/*----acc--------*/
+.acc{ margin-top:35px; margin-left:40px;}
+.acc .tu{ float:left;}
+.input{ float:left; margin-left:20px}
+.input .put{ margin-top:20px; }
+.input .put a{ color:#24c3fa;}
+.input .bind a{ display:inline-block; margin-left:50px; text-decoration:none}
+.input .tip a{ display:inline-block; margin-left:70px; text-decoration:none}
+.input .order a{ display:inline-block; margin-left:10px; text-decoration:none; font-style:normal}
+.order .pian{ margin-left:10px}
+.input .put a:hover{ color:#24c3fa; text-decoration:underline}
+
+.input .order em{ margin-left:10px; color: #FC0; font-style:normal}
+/*-------------abb----------------*/
+.abb .email{float:left;border-left:1px solid #eaeaea; border-right:1px solid #eaeaea}
+ .section .sou{ margin-top:35px; padding-left:110px; }
+.section .sou {background: url(../images/icon_m.png) no-repeat 50px 0; padding-bottom:20px}
+.section .sou h4{ padding-top:10px}
+.section .des{ text-align:center; margin-top:10px}
+.section  p{ padding-top:5px}
+.section  p .spa{ background: url(../images/icon_right.png) no-repeat 0 center;  padding-left:25px;}
+.email .sou{ background:url(../images/icon_e.png) no-repeat 50px 0;}
+.miling .sou{ background:url(../images/icon_o.png) no-repeat 50px 0}
+.email .sou .sa{ background:url(../images/icon_alert.png) no-repeat}
+.miling .sou .sa{ background: url(../images/icon_alert.png) no-repeat}
+.section a{ color:#24c3fa; text-decoration:none}
+.section a:hover{ color:#24c3fa; text-decoration:underline}
+/*--------azz-------------*/
+.azz{ margin-top:30px; margin-left:50px}
+.azz tr{height:35px; line-height:35px}
+.azz .col{ padding-left:80px}
+.azz .col2{ padding-left:50px;}
+.azz .col2 a{ text-decoration:none; color:#24c3fa}
+.col a{ text-decoration:none;color:#24c3fa}
+.azz .col2 a:hover{ text-decoration:underline;}
+.col a:hover{text-decoration:underline; }
+/*----------footer-----------*/
+h1{ float:left;  margin-top:50px}
+.foot{ float:left; margin-top:40px;}
+.foot p{ padding-left:50px; color:#95a6b6; margin-top:5px}
+.foot .tar{ margin-left:5px}
+.foot .tbr{ margin-left:5px}
+.foot .ter a{ color:#95a6b6; text-decoration:none;  padding-right:5px; padding-left:5px}
+.foot .ter a:hover{ color:#24c3fa; text-decoration:underline}

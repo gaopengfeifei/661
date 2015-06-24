@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+/*------默认清除-----------*/
+*{ margin:0; padding:0;}
+body{ font:normal "微软雅黑" 12px/18px; color:#777; background-color:#efefef}
+ul,ol{ list-style:none}
+border{none}
+a{text-decoration:none}
+/*-------初步分区域------------*/
+.top-bar{height:90px; background-color:#f7f8fa;margin-bottom:60px}
+.header{height:344px;}
+.news{height:150px; background-color:#e8ecef}
+.article{height:140px;background-color:f6f7f9; margin-top:55px; margin-bottom:120px}
+.footer{ height:140px; background-color:#525e6a }
+/*-------垂直分区域-------------*/
+.container{width:1000px;margin:0 auto;height:100%}
+
+
+
+/*------header 分区域----------*/
+.header .container .hea{ float:left; width:720px; background-color: #C0C; height:100%; border:none}
+.header .container .der{ float:left; width:280px;  height:100%}
+/*---------der--------------*/
+.der .er{ height:72px;}
+
+/*---------------------*/
+.container .tip{ float:left;width:33%; background-color:#e5e6e8; height:100%}
+.container .ti{ background-color:#f6f7f9}
+.container .cle{ background-color:#f6f7f9}
+/*---------填充内容--------------*/
+/*----------top-bar---------------*/
+.container h1{ float:left}
+.container .ner{ float:right; border-right:1px dashed #eaeaea;}
+.container .ner li{ float:left; width:120px; font-size:18px; height:90px; text-align:center;px;border-left:1px dashed #eaeaea;}
+.container .ner li a{ display:block; height:57px;padding-top:30px; border-bottom:3px; color:#565656}
+.container .ner li a:hover,.container .ner li .active{ color:#24c3fa;border-bottom:3px solid #24c3fa}
+
+.container .ner li em{ display:block; font-size:10px; font-style:normal}
+/*-----------------header--------------------------*/
+/*----------------herder-----------------------*/
+.er .rr { float: left;width:140px; height:72px; line-height:72px; text-align:center;background-color:#098cd2}
+.er .rr a{ color:#fff; font-size:18px}
+.er .bb { float: left;width:140px; height:72px; line-height:72px; text-align:center;background-color:#e25527}
+.er .bb a{ color:#fff; font-size:18px}
+
+.ea h4{ height:50px; line-height:50px; text-align:center}
+.ea .one{ background-color:#ffffff;  width:280; height:220px}
+.ea #uname { width:152PX; height:27PX; background-image:url(../images/uname_bg.gif); background-repeat:no-repeat; margin-left:35px; padding-left:35px; margin-top:30px;border:none}
+.ea .frist { margin-left:175px; font-size:12px}
+.ea .frist a{ color:78797b}
+.ea .frist a:hover{ text-decoration:underline}
+.ea #upass { width:152PX; height:27PX; background:url(../images/upass_bg.gif)no-repeat; background-repeat:no-repeat; margin-left:35px; padding-left:35px;border:none; margin-top:2px}
+.ea #yzm { width:90PX; height:27PX; background:url(../images/vad_bg.gif) no-repeat; margin-left:35px; padding-left:5px; margin-top:16px; border:none} 
+.ea .pic{ font-size:14px; color:#dc563b}
+.ea  a:hover{text-decoration:underline}
+.ea .theer{ margin-top:16px}
+.ea #sub{ background-color:#5a85b8; width:197px; height:38px; margin-left:35px; margin-top:20px; border:none; color:#ffffff; font-size:20px}
+/*-----------article-----------------*/
+.container .section ul { margin-left:25px; padding-top:16px}
+.container .section ul li{ float:left;}
+.container .section ul li .new{ border:none}
+.section ul li span{ display:block; margin-left:10px; color:#7f8a90}
+.container .section .art{ margin-left:90px}
+.section ul li a:hover span{ text-decoration:underline; color:#24c3fa;}
+/*-------article--------------*/
+.ar ul li{ float:left}
+.ar ul .vv img{border:none}
+.ar ul .cad{ margin-left:20px;}
+.ar ul .cbd{ margin-left:35px; margin-top:10px;  font-weight:bold; color:#1f3243}
+.ar ul .ccd{ padding-top:10px; border:none;}
+.ar ul .asd img{ margin-left:125px; padding-top:5px; border:none;}
+.ti h3{ margin-left:25px; margin-top:10px}
+.ti table{ margin-left:25px; margin-top:10px;}
+.ti .lll{ width:220px; height:30px;; font-size:12px;}
+.ti .ff{font-size:12px;}
+.ti .gg{ border-bottom:1px dashed #a6a6a8 }
+.cle h3{ margin-top:10px; margin-left:25px}
+.cle ul .yyy{ float:left}
+.cle ul .ooo{ float:left}
+.cle ul li{ margin-left:25px; margin-top:10px}
+.cle ul li a{ font-size:14px; color:#747474}
+.cle ul li a:hover{color:#23c4fb; text-decoration:underline}
+.cle ul li .active{color:#23c4fb;}
+.cle ul li .tt{ padding-left:60px}
+.cle ul .eee{ border-bottom:1px dashed #a6a6a8; padding-bottom:8px}
+/*----footer--------*/
+.footer h2 img{float:left; margin-top:50px}
+.footer .foot{ float:left; padding-top:30px; padding-left:50px}
+.footer .foot p{padding-top:10px; color:#a3b6c5; font-size:12px}
+.footer .foot p a{color:#a3b6c5}
+.footer .foot p a:hover{ color:#25c5f9}

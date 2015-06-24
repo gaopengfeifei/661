@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 12px/1.5 Tahoma, Helvetica, Arial, 'MicroSoft Yahei', sans-serif;;background-color: #f6f7f9;
+}/*字体大小/行高  ？  ？  ？  微软雅黑  ？  */
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}/*共26个标签*/
+table {
+	border-collapse: collapse;  /*重叠边框合并*/
+	border-spacing: 0  /*边框间距为0*/
+}
+fieldset, img {
+	border: none /*边框为0*/
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: 400;
+}
+li {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+button, input, select, textarea {
+*font-size:100%;
+	font: 100% 'MicroSoft YaHei', Tahoma, Helvetica, Arial, sans-serif
+}
+table {
+	font: 100%;
+}
+/*---------清除浏览器默认---------------------------*/
